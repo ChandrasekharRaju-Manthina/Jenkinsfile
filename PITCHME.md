@@ -4,7 +4,7 @@
 
 ![Jenkins](pics/jenkins.jpg)
 
-Banagalore, Belfast, Charlotte, Northbrook, Northland (NI), The Mart (Chicago), Tempe
+##### Banagalore, Belfast, Charlotte, Northbrook, Northland (NI), The Mart (Chicago), Tempe
 
 #HSLIDE
 ### Jenkins
@@ -32,18 +32,18 @@ Banagalore, Belfast, Charlotte, Northbrook, Northland (NI), The Mart (Chicago), 
 ![Jenkinsfile Example](pics/JenkinsfileExample.jpg)
 
 #HSLIDE
+### Jenkinsfile
+  * Add to the root of the project
+  
+![Jenkinsfile Location](pics/Where_is_a_jenkinsfile.jpg)
+
+#HSLIDE
 ### Jenkinsfile v. GUI - Legacy Pipeline
 ![Jenkinsfile Example](pics/Pipeline%20Comparison%20-%20Legacy.png)
 
 #HSLIDE
 ### Jenkinsfile v. GUI - Jenkinsfile Pipeline
 ![Jenkinsfile Example](pics/Pipeline%20Comparison%20-%20Jenkinsfile.png)
-
-#HSLIDE
-### Jenkinsfile
-  * Add to the root of the project
-  
-![Jenkinsfile Location](pics/Where_is_a_jenkinsfile.jpg)
 
 #HSLIDE
 ### Benefits of using a Jenkinsfile
@@ -79,6 +79,8 @@ Banagalore, Belfast, Charlotte, Northbrook, Northland (NI), The Mart (Chicago), 
   8. Saving Unit Tests
   8. Parallel Jobs
   9. Demo
+<!-- ***************************** SWITCH TO DEMO MODE *************************** -->
+<!-- The following slides give guidance as to what to talk through but are not for presenting -->
 
 #HSLIDE
 ### Test and Publish Stage (Part 1: Setup)
@@ -109,13 +111,11 @@ Banagalore, Belfast, Charlotte, Northbrook, Northland (NI), The Mart (Chicago), 
   * (Line 11) Create a stage fragment (Optional)
     * Appears in output of logs, helps organize statements, and helps with setting up jobs to run in parallel
 
-
 #HSLIDE
 ### Test and Publish Stage
 ![Test Step 2](pics/TestStep2.jpg)
   * (Line 14-17) Install your dependencies
     * Note: all actions occur at the root of the project where the Jenkinsfile is located (don't forget to change directory into your client)
-
 
 #HSLIDE
 ### Test and Publish Stage
@@ -136,6 +136,7 @@ Banagalore, Belfast, Charlotte, Northbrook, Northland (NI), The Mart (Chicago), 
     * This tells Jenkins to save the current state so if it fails after this point it can be restarted at this checkpoint
 
 #HSLIDE
+<!-- ***************************** SHOW THESE SLIDES *************************** -->
 ### Storing Credentials on Jenkins
 ![Add Credentials 1](pics/addCredentials1.jpg)
 
