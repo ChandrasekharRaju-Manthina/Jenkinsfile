@@ -159,13 +159,13 @@
 ![Using Pipeline Syntax Generator 1](pics/PipelineSyntax1.jpg)
 
 #HSLIDE
-### Assigning Credentials to Environment Variables
-![Credentials](pics/Jenkins%20Credentials.png)
-
-#HSLIDE
-### Accessing Credentials in a Jenkinsfile
+### Accessing Credentials in a Jenkinsfile with Syntax Generator
 <img src="pics/PipelineSyntax2.jpg" style="height: 700px;"/>
   * In this example, you would access USERNAME in the Jenkinsfile by using env.MY_USERNAME
+
+#HSLIDE
+### Assigning Credentials to Environment Variables
+![Credentials](pics/Jenkins%20Credentials.png)
 
 #HSLIDE
 ### Deploying to DEV
@@ -182,15 +182,20 @@
         * given to us by adding cloudfoundry dependency to build.gradle
 
 #HSLIDE
-### Manual Deployment to Higher Environments
+### Deploying to UAT
+![UAT Deploy](pics/uatDeploy.jpg)
+
+#HSLIDE
+### Tips - Manual Deployment (input)
 ![Manual Deployment](pics/manualInput.jpg)
   * This pauses your pipeline until manually triggered
+  * Typiclly for higher environments
   * Lots of configurations for this stage
     * Specify permissions for logged in user to trigger
 
 #HSLIDE
-### Deploying to UAT
-![UAT Deploy](pics/uatDeploy.jpg)
+### Tips - Parallel Jobs
+  * Speeds up the build process
 
 #HSLIDE
 ### Adding a Veracode Stage
@@ -199,7 +204,7 @@
   * App teams are required to integrate Veracode scanning into their continuous integration pipelines  
 
 #HSLIDE
-### Conveyor
+### Conveyor & use of Functions
   * Uses blue green deployment
     * Runs two identical production environments called Blue and Green
     * At any time, only one of the environments is live, with the live environment serving all production traffic
@@ -213,10 +218,6 @@
     * unit test results can be seen
     * new stories added since last release is visible
     * auditors can make sure stories have been accepted by product owner
-
-#HSLIDE
-### Parallel Jobs
-  * Speeds up the build process
 
 #HSLIDE
 ### For more info:
