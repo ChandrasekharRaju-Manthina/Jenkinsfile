@@ -3,6 +3,7 @@
 ### Jenkinsfile
 
 ![Jenkins](pics/jenkins.jpg)
+Banagalore, Belfast, Charlotte, Northbrook, Northland (NI), The Mart (Chicago), Tempe
 
 #HSLIDE
 ### Jenkins
@@ -131,7 +132,7 @@
 
 #HSLIDE
 ### Storing Credentials on Jenkins
-![Credentials](pics/jenkinsCredentials.jpg)
+![Credentials](pics/Jenkins%20Credentials.png)
 
 #HSLIDE
 ### Storing Credentials on Jenkins
@@ -212,4 +213,8 @@
   * Speeds up the build process
 
 #HSLIDE
+### For more info:
+* This presentation will be posted out in Slack
+* See also CompoZed Docs on [pipeline as code (Jenkinsfile)](https://docs.compozed.allstate.com/pages/deploying_apps/jenkins_ci/using-jenkins.html#pipeline-as-code)
+
 ### fin.
