@@ -3,6 +3,7 @@
 ### Jenkinsfile
 
 ![Jenkins](pics/jenkins.jpg)
+
 Banagalore, Belfast, Charlotte, Northbrook, Northland (NI), The Mart (Chicago), Tempe
 
 #HSLIDE
@@ -31,13 +32,17 @@ Banagalore, Belfast, Charlotte, Northbrook, Northland (NI), The Mart (Chicago), 
 ![Jenkinsfile Example](pics/JenkinsfileExample.jpg)
 
 #HSLIDE
-### Jenkinsfile v. GUI
-![Jenkinsfile Example](pics/comparison.jpg)
+### Jenkinsfile v. GUI - Legacy Pipeline
+![Jenkinsfile Example](pics/Pipeline%20Comparison%20-%20Legacy.png)
 
+#HSLIDE
+### Jenkinsfile v. GUI - Jenkinsfile Pipeline
+![Jenkinsfile Example](pics/Pipeline%20Comparison%20-%20Jenkinsfile.png)
 
 #HSLIDE
 ### Jenkinsfile
   * Add to the root of the project
+  
 ![Jenkinsfile Location](pics/Where_is_a_jenkinsfile.jpg)
 
 #HSLIDE
@@ -132,10 +137,6 @@ Banagalore, Belfast, Charlotte, Northbrook, Northland (NI), The Mart (Chicago), 
 
 #HSLIDE
 ### Storing Credentials on Jenkins
-![Credentials](pics/Jenkins%20Credentials.png)
-
-#HSLIDE
-### Storing Credentials on Jenkins
 ![Add Credentials 1](pics/addCredentials1.jpg)
 
 #HSLIDE
@@ -153,8 +154,12 @@ Banagalore, Belfast, Charlotte, Northbrook, Northland (NI), The Mart (Chicago), 
 ![Add Credentials 4](pics/addCredentials4.jpg)
 
 #HSLIDE
-### Accessing Credentials in a Jenkinsfile
+### Accessing Credentials in a Jenkinsfile with Syntax Generator
 ![Using Pipeline Syntax Generator 1](pics/PipelineSyntax1.jpg)
+
+#HSLIDE
+### Assigning Credentials to Environment Variables
+![Credentials](pics/Jenkins%20Credentials.png)
 
 #HSLIDE
 ### Accessing Credentials in a Jenkinsfile
